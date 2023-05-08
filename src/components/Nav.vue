@@ -1,7 +1,9 @@
 <template>
   <div class="bg-blue-400">
     <div class="container mx-auto flex items-center justify-between py-4">
-      <h1 class="text-3xl font-semibold">
+      <h1
+        class="text-3xl font-semibold py-8 px-4 hover:cursor-pointer hover:bg-blue-200 hover:text-gray-500"
+      >
         <router-link to="/">Therapy Calculator</router-link>
       </h1>
       <nav>
